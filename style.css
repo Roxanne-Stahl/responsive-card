@@ -94,6 +94,10 @@ color: var(--PRIMARY-MED);
     color: var(--NEUTRAL-LIGHT);
     background-color: var(--PRIMARY-MED);
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 #cart:hover{
@@ -101,6 +105,14 @@ color: var(--PRIMARY-MED);
     cursor: pointer;
 }
 
+.attribution{
+    color:  #1A4032;
+    text-align: center;
+    margin-top: 2em;
+}
+.attribution a{
+    color:hsl(158, 36%, 37%)
+}
 /* ----------MEDIA QUERIES----------- */
 
 /* -----SMALL----- */
@@ -172,5 +184,7 @@ color: var(--PRIMARY-MED);
         left: 332px;
         top: 370px;
     }
+
+    
 
 }
